@@ -114,11 +114,25 @@ export const navLinks = [
 
 export const footerColumns = [
   { title: "Services", links: [{ label: "Pricing", href: "/pricing/" }, { label: "Examples", href: "/examples/" }, { label: "Request a quote", href: "/quote/" }, { label: "FAQ", href: "/faq/" }] },
-  { title: "Company", links: [{ label: "About", href: "/about/" }, { label: "Contact", href: "/contact/" }, { label: "After payment", href: "/thank-you/" }] },
+  { title: "Company", links: [{ label: "About", href: "/about/" }, { label: "Careers", href: "/careers/" }, { label: "Contact", href: "/contact/" }, { label: "After payment", href: "/thank-you/" }] },
   { title: "Legal", links: [
     { label: "Legal Notice", href: "/legal-notice/" }, { label: "Terms of Service", href: "/terms/" }, { label: "Refund Policy", href: "/refund/" },
-    { label: "Privacy Policy", href: "/privacy/" }, { label: "Cookie Policy", href: "/cookies/" },
+    { label: "Privacy Policy", href: "/privacy/" }, { label: "Security", href: "/security/" }, { label: "Cookie Policy", href: "/cookies/" },
   ] },
 ];
 
 export const SELECT_LOCATIONS = ["2 to 5", "6 to 20", "More than 20"] as const;
+
+export const billingFaqs = [
+  { q: "Does anything renew automatically?", a: "No. Every offer is a one-off payment. Nothing renews automatically and there is nothing to cancel." },
+  { q: "Can I buy more than one offer?", a: "Yes. Each purchase is separate. For example you can buy the Google Profile Optimization now and Reply Pro later. For several locations, request a quote." },
+  { q: "When do the 30 days start?", a: "In Reply Starter and Reply Pro, the 30 days start when we begin the work, which is within 48 hours of receiving your details. Replies you do not use in that period are not carried over." },
+  { q: "Which payment methods can I use?", a: "You pay by card on a secure Airwallex page. Airwallex shows the card options available for your payment." },
+  { q: "Can I get a refund?", a: "Yes, as set out in the Refund Policy: a full refund if you ask before the work starts, no refund once the work is delivered, and a pro-rata refund if we fail to deliver what you bought." },
+  { q: "Are prices final?", a: "Prices are in EUR. Taxes may apply depending on where your business is located, and are shown on the payment page if they do." },
+] as const;
+
+export const marqueeRows = [
+  ["Restaurants", "A table for two that went wrong", "Praise for the kitchen", "Hotels", "A noisy room", "Thank you for the warm welcome", "Garages", "A repair that took longer", "Shops", "A product that arrived late"],
+  ["Salons", "A colour that came out perfectly", "A long wait for an appointment", "Cafes", "Friendly staff", "A billing mistake", "Barbers", "A booking mix-up", "Local services", "A five-star thank you"],
+] as const;

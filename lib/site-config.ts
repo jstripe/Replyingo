@@ -15,6 +15,7 @@ export const siteConfig = {
 
   // Company identity (final step fills these in)
   legalEntity: "{{LEGAL NAME}}",
+  legalForm: "{{LEGAL FORM}}",
   registrationNumber: "{{REGISTRATION NUMBER}}",
   address: "{{ADDRESS}}",
   governingLaw: "{{GOVERNING LAW}}",

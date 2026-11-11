@@ -9,6 +9,8 @@ import { PricingCards } from "@/components/sections/PricingCards";
 import { ReviewExample } from "@/components/sections/ReviewExample";
 import { FaqList } from "@/components/sections/Faq";
 import { CtaBanner } from "@/components/sections/CtaBanner";
+import { Marquee } from "@/components/sections/Marquee";
+import { ReplyDemo } from "@/components/sections/ReplyDemo";
 import { Mandatory } from "@/components/sections/Mandatory";
 import { Button } from "@/components/ui/button";
 import { JsonLd } from "@/components/json-ld";
@@ -39,8 +41,10 @@ export default function HomePage() {
         <div className="grid gap-5 lg:grid-cols-3">{examples.map((e) => <ReviewExample key={e.kind} ex={e} compact />)}</div>
         <div className="mt-8 text-center"><Button asChild variant="outline" size="lg" className="bg-background"><Link href="/examples/">More about our replies <ArrowRight className="h-4 w-4" aria-hidden /></Link></Button></div>
       </Section>
+      <ReplyDemo />
       <UseCases />
-      <Section id="faq" className="defer bg-muted/50">
+      <Marquee />
+      <Section id="faq" className="defer">
         <SectionHeading eyebrow="FAQ" title="Questions before you buy" />
         <FaqList />
       </Section>

@@ -3,7 +3,7 @@ import { SiteShell } from "@/components/layout/SiteShell";
 import { Table, THead, TBody, TR, TH, TD } from "@/components/ui/table";
 import { legalNotice, siteConfig } from "@/lib/site-config";
 
-export const LEGAL_LAST_UPDATED = "9 November 2026";
+export const LEGAL_LAST_UPDATED = "11 November 2026";
 
 export type LegalSection = { id: string; title: string; body: React.ReactNode };
 

@@ -59,7 +59,15 @@ export default function TermsPage() {
         <LP>Nothing in these Terms excludes or limits liability that cannot be excluded or limited by law, including liability for death or personal injury caused by negligence, for fraud, or for intentional misconduct.</LP>
         <LP>Subject to that, our total liability to you for any claim linked to an order is limited to the amount you paid for that order, and we are not liable for loss of profit, loss of business or indirect loss. The service is provided with reasonable care and skill.</LP>
       </> },
+      { id: "indemnity", title: "Your responsibility for what you give us", body: <LP>You are responsible for the information, instructions and permissions you give us. You agree to compensate us for losses and claims from third parties that arise because you gave us information you had no right to give, asked us to reply on a profile you were not authorised to manage, or broke the Acceptable use section. This does not apply to the extent that the loss was caused by us, and it does not limit any right you have as a consumer.</LP> },
       { id: "suspension", title: "Suspension and ending", body: <LP>We may suspend or end an order if you break these Terms. If we end an order for a reason that is not your fault, the Refund Policy applies. You may stop using the service at any time. Because there is no renewal, there is nothing to cancel.</LP> },
+      { id: "general", title: "General", body: <LUL>
+        <li><strong>Entire agreement:</strong> these Terms, the Refund Policy and the offer you bought are the whole agreement between you and us about the service.</li>
+        <li><strong>Severability:</strong> if a part of these Terms is found to be invalid, the rest stays in force.</li>
+        <li><strong>Events outside our control:</strong> we are not responsible for a delay caused by something outside our reasonable control, such as a failure of a platform, a network or a payment provider. We will tell you and carry on as soon as we can.</li>
+        <li><strong>Transfer:</strong> we may transfer our rights and duties to another company that takes over the service, as long as your rights under these Terms stay the same. You may not transfer yours without our written consent.</li>
+        <li><strong>Language:</strong> these Terms are written in English.</li>
+      </LUL> },
       { id: "law", title: "Governing law", body: <LP>These Terms are governed by {siteConfig.governingLaw}. If you are a consumer, you also keep the protection of the mandatory consumer rules of the country where you live. Please contact us first at <Mail /> so that we can try to solve any problem together.</LP> },
       { id: "changes", title: "Changes to these terms", body: <LP>We may update these Terms. The date at the top shows the latest version. A change does not affect an order you have already paid for, unless the law requires it.</LP> },
       { id: "contact", title: "Contact", body: <LP>Questions about these Terms: <Mail />, or the <LLink href="/contact/">contact page</LLink>.</LP> },
