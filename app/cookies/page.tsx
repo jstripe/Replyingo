@@ -5,7 +5,7 @@ export const metadata = buildMetadata("Cookie Policy", "The cookies and browser 
 
 export default function CookiesPage() {
   return (
-    <LegalLayout title="Cookie Policy" intro="What is stored in your browser when you visit ReplyBuilt, and what is not." sections={[
+    <LegalLayout path="/cookies/" title="Cookie Policy" intro="What is stored in your browser when you visit ReplyBuilt, and what is not." sections={[
       { id: "short", title: "In short", body: <LP>Our website does not set cookies for visitors, and we do not use analytics, advertising or tracking cookies. We show a notice at the bottom of the page so that you can see this and close it.</LP> },
       { id: "list", title: "What is stored", body: <SimpleTable head={["Name", "Type", "Purpose", "Duration"]} rows={[
         ["replybuilt_cookie_notice", "Browser storage (localStorage), first party", "Remembers that you closed the cookie notice. It stays in your browser and is never sent to us.", "Until you clear your browser data"],

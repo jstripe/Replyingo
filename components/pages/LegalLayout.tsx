@@ -1,13 +1,15 @@
 import Link from "next/link";
 import { SiteShell } from "@/components/layout/SiteShell";
 import { Table, THead, TBody, TR, TH, TD } from "@/components/ui/table";
+import { JsonLd } from "@/components/json-ld";
+import { breadcrumbLd } from "@/lib/seo";
 import { legalNotice, siteConfig } from "@/lib/site-config";
 
 export const LEGAL_LAST_UPDATED = "11 November 2026";
 
 export type LegalSection = { id: string; title: string; body: React.ReactNode };
 
-export function LegalLayout({ title, intro, sections }: { title: string; intro: string; sections: LegalSection[] }) {
+export function LegalLayout({ title, intro, sections, path }: { title: string; intro: string; sections: LegalSection[]; path: string }) {
   return (
     <SiteShell>
       <div className="mx-auto max-w-3xl px-5 py-12 sm:px-6 md:py-20">
@@ -38,6 +40,7 @@ export function LegalLayout({ title, intro, sections }: { title: string; intro: 
           <p className="mt-1">Email: <Mail /> or use the <Link className="text-primary underline underline-offset-4" href="/contact/">contact page</Link>. Phone: {siteConfig.phone}. Opening hours: {siteConfig.hours}.</p>
         </div>
       </div>
+      <JsonLd data={breadcrumbLd([{ name: title, path }])} />
     </SiteShell>
   );
 }

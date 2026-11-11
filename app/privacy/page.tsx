@@ -7,7 +7,7 @@ export const metadata = buildMetadata("Privacy Policy", "How ReplyBuilt collects
 export default function PrivacyPage() {
   const E = siteConfig.legalEntity;
   return (
-    <LegalLayout title="Privacy Policy" intro="What personal data we collect, why, who else handles it and what rights you have under the GDPR." sections={[
+    <LegalLayout path="/privacy/" title="Privacy Policy" intro="What personal data we collect, why, who else handles it and what rights you have under the GDPR." sections={[
       { id: "controller", title: "Who is responsible for your data", body: <LP>The controller is {E}, registration no. {siteConfig.registrationNumber}, {siteConfig.address}. Contact for privacy questions: <Mail />.</LP> },
       { id: "collect", title: "What we collect", body: <>
         <LP>We collect only what the service needs. We have no user accounts and we do not run analytics or advertising trackers.</LP>
@@ -47,7 +47,7 @@ export default function PrivacyPage() {
         <LP>You may also complain to the data protection supervisory authority of the country where you live or work, or where {E} is established.</LP>
       </> },
       { id: "automated", title: "Automated decisions", body: <LP>We do not make decisions about you based only on automated processing, and we do not build profiles of visitors.</LP> },
-      { id: "us", title: "Notice for US residents", body: <LP>We do not sell personal information and we do not share it for cross-context behavioural advertising. We collect the categories described above for the business purposes described above. If you live in a US state with a privacy law, you may ask to know, correct or delete your personal information, and we will not treat you differently for asking. Write to <Mail />.</LP> },
+      { id: "us", title: "Notice for US residents", body: <LP>We do not sell personal information and we do not share it for cross-context behavioral advertising. We collect the categories described above for the business purposes described above. If you live in a US state with a privacy law, you may ask to know, correct or delete your personal information, and we will not treat you differently for asking. Write to <Mail />.</LP> },
       { id: "security", title: "Security", body: <LP>The site is served over HTTPS. Form data is stored in an encrypted Cloudflare database, access to the back office needs a login, and forms are protected against abuse. Read more on our <LLink href="/security/">Security</LLink> page. No system is perfectly secure, so please do not send us passwords or card numbers by email or in forms.</LP> },
       { id: "children", title: "Children", body: <LP>The service is for businesses and is not meant for anyone under 18. We do not knowingly collect data from children.</LP> },
       { id: "cookies", title: "Cookies", body: <LP>See the <LLink href="/cookies/">Cookie Policy</LLink>.</LP> },

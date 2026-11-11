@@ -9,7 +9,7 @@ export const metadata = buildMetadata("Terms of Service", "The agreement between
 export default function TermsPage() {
   const E = siteConfig.legalEntity;
   return (
-    <LegalLayout title="Terms of Service" intro={`The agreement between you and ${E} when you use ${siteConfig.name} or buy one of its offers.`} sections={[
+    <LegalLayout path="/terms/" title="Terms of Service" intro={`The agreement between you and ${E} when you use ${siteConfig.name} or buy one of its offers.`} sections={[
       { id: "who", title: "Who we are and who these terms apply to", body: <>
         <LP>{siteConfig.name} is operated by {E}, registration no. {siteConfig.registrationNumber}, registered office: {siteConfig.address} (&ldquo;we&rdquo;, &ldquo;us&rdquo;). By buying an offer or sending us a form you agree to these Terms and to the <LLink href="/refund/">Refund Policy</LLink>.</LP>
         <LP>The service is for businesses. You must be 18 or older and have the authority to act for the business you register with us.</LP>
@@ -46,8 +46,8 @@ export default function TermsPage() {
       { id: "use", title: "Acceptable use", body: <>
         <LP>You agree not to use the service to:</LP>
         <LUL>
-          <li>reply to reviews on a profile that you do not own or are not authorised to manage;</li>
-          <li>ask us to write, buy, sell or post fake or incentivised reviews;</li>
+          <li>reply to reviews on a profile that you do not own or are not authorized to manage;</li>
+          <li>ask us to write, buy, sell or post fake or incentivized reviews;</li>
           <li>publish replies that are unlawful, defamatory, hateful, misleading or that expose another person&apos;s private data;</li>
           <li>impersonate another person or business, or commit fraud.</li>
         </LUL>
@@ -59,7 +59,7 @@ export default function TermsPage() {
         <LP>Nothing in these Terms excludes or limits liability that cannot be excluded or limited by law, including liability for death or personal injury caused by negligence, for fraud, or for intentional misconduct.</LP>
         <LP>Subject to that, our total liability to you for any claim linked to an order is limited to the amount you paid for that order, and we are not liable for loss of profit, loss of business or indirect loss. The service is provided with reasonable care and skill.</LP>
       </> },
-      { id: "indemnity", title: "Your responsibility for what you give us", body: <LP>You are responsible for the information, instructions and permissions you give us. You agree to compensate us for losses and claims from third parties that arise because you gave us information you had no right to give, asked us to reply on a profile you were not authorised to manage, or broke the Acceptable use section. This does not apply to the extent that the loss was caused by us, and it does not limit any right you have as a consumer.</LP> },
+      { id: "indemnity", title: "Your responsibility for what you give us", body: <LP>You are responsible for the information, instructions and permissions you give us. You agree to compensate us for losses and claims from third parties that arise because you gave us information you had no right to give, asked us to reply on a profile you were not authorized to manage, or broke the Acceptable use section. This does not apply to the extent that the loss was caused by us, and it does not limit any right you have as a consumer.</LP> },
       { id: "suspension", title: "Suspension and ending", body: <LP>We may suspend or end an order if you break these Terms. If we end an order for a reason that is not your fault, the Refund Policy applies. You may stop using the service at any time. Because there is no renewal, there is nothing to cancel.</LP> },
       { id: "general", title: "General", body: <LUL>
         <li><strong>Entire agreement:</strong> these Terms, the Refund Policy and the offer you bought are the whole agreement between you and us about the service.</li>

@@ -68,7 +68,7 @@ export function PricingCards() {
         <CustomCard />
       </div>
       <p className="mx-auto mt-8 max-w-3xl text-center text-sm text-muted-foreground">
-        Pay once. No automatic renewal. Prices in EUR. Taxes may apply. All offers are one-time payments processed securely by Airwallex. See our <Link href="/terms/" className="text-primary underline underline-offset-4">Terms</Link> and <Link href="/refund/" className="text-primary underline underline-offset-4">Refund Policy</Link>.
+        Pay once. No automatic renewal. Prices in EUR. Taxes may apply. Hours and days count from when we receive your complete details. All offers are one-time payments processed securely by Airwallex. See our <Link href="/terms/" className="text-primary underline underline-offset-4">Terms</Link> and <Link href="/refund/" className="text-primary underline underline-offset-4">Refund Policy</Link>.
       </p>
     </div>
   );

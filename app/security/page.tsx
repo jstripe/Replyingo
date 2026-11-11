@@ -5,7 +5,7 @@ export const metadata = buildMetadata("Security", "How ReplyBuilt protects your 
 
 export default function SecurityPage() {
   return (
-    <LegalLayout title="Security" intro="How we protect the information you send us, and how to tell us if you find a problem." sections={[
+    <LegalLayout path="/security/" title="Security" intro="How we protect the information you send us, and how to tell us if you find a problem." sections={[
       { id: "infra", title: "Infrastructure", body: <LP>The website and its small back end run on Cloudflare&apos;s global network. Pages are static files, and the only server code handles our forms and the back office. We do not run our own servers.</LP> },
       { id: "transit", title: "Encryption", body: <LUL>
         <li><strong>In transit:</strong> the site is served over HTTPS only, and plain HTTP requests are redirected to HTTPS.</li>

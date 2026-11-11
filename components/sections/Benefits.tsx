@@ -35,7 +35,7 @@ export function Benefits() {
 
 const tiles = [
   { slug: "aud-restaurant", title: "Restaurants and cafes", text: "Thank the guest who loved the evening. Take the late order seriously." },
-  { slug: "aud-salon", title: "Salons and barbers", text: "Answer the review about the wait and the one about the colour, in the same warm voice." },
+  { slug: "aud-salon", title: "Salons and barbers", text: "Answer the review about the wait and the one about the color, in the same warm voice." },
   { slug: "aud-shop", title: "Shops and local services", text: "Hotels, garages and shops get replies that sound like the people who run them." },
 ];
 

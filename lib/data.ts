@@ -90,7 +90,7 @@ export const examples = [
   },
   {
     kind: "Negative", place: "Garage", stars: 1,
-    review: "My car was supposed to be ready on Friday. I called twice and only got a call back on Monday. Nobody explained the delay and I had to organise a rental.",
+    review: "My car was supposed to be ready on Friday. I called twice and only got a call back on Monday. Nobody explained the delay and I had to organize a rental.",
     reply: "We are sorry about the delay and about the calls that went unanswered. A repair that runs late should always come with a clear explanation, and you did not get one. We would like to understand what happened and make it right. Please contact us at the address shown on our Google profile so we can look at your file together.",
   },
 ] as const;
@@ -134,5 +134,5 @@ export const billingFaqs = [
 
 export const marqueeRows = [
   ["Restaurants", "A table for two that went wrong", "Praise for the kitchen", "Hotels", "A noisy room", "Thank you for the warm welcome", "Garages", "A repair that took longer", "Shops", "A product that arrived late"],
-  ["Salons", "A colour that came out perfectly", "A long wait for an appointment", "Cafes", "Friendly staff", "A billing mistake", "Barbers", "A booking mix-up", "Local services", "A five-star thank you"],
+  ["Salons", "A color that came out perfectly", "A long wait for an appointment", "Cafes", "Friendly staff", "A billing mistake", "Barbers", "A booking mix-up", "Local services", "A five-star thank you"],
 ] as const;

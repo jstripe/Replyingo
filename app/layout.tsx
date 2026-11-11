@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
   },
   manifest: "/site.webmanifest",
-  openGraph: { siteName: siteConfig.name, type: "website", locale: "en_GB", images: [{ url: "/og.png", width: 1200, height: 630, alt: "ReplyBuilt" }] },
+  openGraph: { siteName: siteConfig.name, type: "website", locale: "en_US", images: [{ url: "/og.png", width: 1200, height: 630, alt: "ReplyBuilt" }] },
   twitter: { card: "summary_large_image", images: ["/og.png"] },
 };
 

@@ -31,3 +31,9 @@ Started 2026-11-09. Playbook: ~/Desktop/Stripe Websites. Skills ui-ux-pro-max / 
 
 ## Tests
 - API tests: 34/34 (scripts/test-api.mjs). Banned-word scan: 0 hits.
+
+## Audit log (2026-11-11)
+- Self-audit against final-standard.md and 02/03 prompts: added Security + Careers pages, "product of" footer line, billing FAQ + "Need more?" block, 2-row marquee, animated "Illustrative example" demo, more legal clauses (indemnity, general, automated decisions, US notice), SSR cookie notice (LCP fix).
+- Independent agent audit of the live workers.dev site (03 prompt, adapted to a service + Airwallex): 0 blocking, 0 important, 9 minor. Fixed: withdrawal wording, turnaround start point, "Illustrative example" labels, legal breadcrumbs, HSTS (production domain only), slimmer mobile cookie bar, US spelling. Kept on purpose: "Most popular" badge (playbook standard), 307 slash redirect (platform behavior).
+- Lighthouse mobile: home 93, others 100; accessibility 99-100, best practices 100, SEO 100.
+- restropanel.com (legal reference) could not be fetched (broken TLS certificate), so legal coverage was checked against final-standard.md and the Step 3 prompt instead.

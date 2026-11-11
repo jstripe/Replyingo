@@ -88,8 +88,18 @@ export default {
     const url = new URL(request.url);
     const target = redirectTarget(url, env.SITE_URL);
     if (target) return Response.redirect(target, 301);
-    if (url.pathname === "/api" || url.pathname.startsWith("/api/")) return handleApi(request, env, url, ctx);
-    return handleAsset(request, env, url);
+    const res = url.pathname === "/api" || url.pathname.startsWith("/api/") ? await handleApi(request, env, url, ctx) : await handleAsset(request, env, url);
+    // HSTS only on the real domain family, never on localhost or *.workers.dev.
+    try {
+      const prod = new URL(env.SITE_URL).hostname.toLowerCase();
+      const h = url.hostname.toLowerCase();
+      if (url.protocol === "https:" && (h === prod || h.endsWith("." + prod))) {
+        const r = new Response(res.body, res);
+        r.headers.set("Strict-Transport-Security", "max-age=31536000");
+        return r;
+      }
+    } catch { /* bad SITE_URL: skip */ }
+    return res;
   },
 
   async scheduled(_ev: ScheduledController, env: Env, ctx: ExecutionContext): Promise<void> {

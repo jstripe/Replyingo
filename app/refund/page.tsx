@@ -6,7 +6,7 @@ export const metadata = buildMetadata("Refund Policy", "Full refund if requested
 
 export default function RefundPage() {
   return (
-    <LegalLayout title="Refund Policy" intro="When you can get your money back, how to ask for it and how fast it is paid." sections={[
+    <LegalLayout path="/refund/" title="Refund Policy" intro="When you can get your money back, how to ask for it and how fast it is paid." sections={[
       { id: "summary", title: "In short", body: <LUL>
         <li><strong>Full refund</strong> if you ask for it before the work starts.</li>
         <li><strong>No refund</strong> once the work is delivered.</li>
@@ -19,8 +19,8 @@ export default function RefundPage() {
         <LP>Write to <Mail /> or use the <LLink href="/contact/">contact page</LLink> and choose &ldquo;Refund request&rdquo;. Please include your business name, the email you used and your payment reference.</LP>
         <LP>We answer within {siteConfig.refundDecisionDays} business days. Approved refunds are processed within {siteConfig.refundPayDays} business days, to the card used for the payment, through Airwallex. Your bank may need extra time to show it on your statement.</LP>
       </> },
-      { id: "billing", title: "Billing errors and unauthorised charges", body: <LP>If you were charged the wrong amount, charged twice, or you did not authorise a payment, write to us straight away. We correct billing errors and refund amounts charged by mistake in full.</LP> },
-      { id: "statutory", title: "Your statutory rights", body: <LP>{siteConfig.name} is designed for businesses. If you are a consumer, this policy does not reduce any right you have under mandatory consumer law, including, where it applies, the statutory right to withdraw from a contract for services within 14 days, which ends once the service has been fully performed. Nothing in this policy limits those rights.</LP> },
+      { id: "billing", title: "Billing errors and unauthorized charges", body: <LP>If you were charged the wrong amount, charged twice, or you did not authorize a payment, write to us straight away. We correct billing errors and refund amounts charged by mistake in full.</LP> },
+      { id: "statutory", title: "Your statutory rights", body: <LP>{siteConfig.name} is designed for businesses. If you are a consumer, this policy does not reduce any right you have under mandatory consumer law, including, where it applies, the statutory right to withdraw from a contract for services within 14 days, subject to the conditions set by law. Nothing in this policy limits those rights.</LP> },
       { id: "disputes", title: "Chargebacks", body: <LP>Please contact us before you ask your bank for a chargeback. We answer quickly, and most problems can be solved faster by writing to us. We may share the facts of an order with our payment provider to respond to a dispute.</LP> },
       { id: "see", title: "Related pages", body: <LP>Read our <LLink href="/terms/">Terms of Service</LLink> for the full agreement and the <LLink href="/pricing/">pricing page</LLink> for what each offer includes.</LP> },
     ]} />
