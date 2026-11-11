@@ -22,8 +22,8 @@ export function ReviewExample({ ex, compact = false }: { ex: ExampleItem; compac
   return (
     <article className="surface flex h-full flex-col overflow-hidden">
       <div className="flex items-center justify-between gap-3 border-b bg-muted/60 px-5 py-3">
-        <span className={cn("rounded-full px-2.5 py-1 text-xs font-semibold ring-1", tone[ex.kind])}>{ex.kind} review</span>
-        <span className="rounded-full border bg-background px-2.5 py-1 text-xs font-semibold uppercase tracking-wider text-muted-foreground">Illustrative example</span>
+        <span className={cn("whitespace-nowrap rounded-full px-2.5 py-1 text-xs font-semibold ring-1", tone[ex.kind])}>{ex.kind} review</span>
+        <span className="whitespace-nowrap rounded-full border bg-background px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-muted-foreground sm:text-xs sm:tracking-wider">Illustrative example</span>
       </div>
       <div className="space-y-4 p-5 sm:p-6">
         <div>
