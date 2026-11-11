@@ -18,7 +18,7 @@ Started 2026-11-09. Playbook: ~/Desktop/Stripe Websites. Skills ui-ux-pro-max / 
 - [x] 2-4 Copy/claims, footer, Pexels images (AVIF/WebP), SEO (metadata, sitemap, robots, JSON-LD), Google file, legal pages, logo + icons + OG
 - [x] 5 Mobile 375px checked (no horizontal scroll), speed, functional check
 - [x] 6 Local audit
-- [x] Renamed to Replyingo (replyingo.com) 2026-11-11; repo jstripe/replybuilt and the Worker + D1 (both still named replybuilt) are unchanged on purpose
+- [x] Renamed to Replyingo (replyingo.com) 2026-11-11; wrangler name is now replyingo (next deploy creates a new Worker; the live one is still named replybuilt until the domain is moved); repo jstripe/replybuilt and the D1 database name replybuilt are kept
 - [x] 7 Launch: pushed jstripe/replybuilt (private, main), deployed https://replybuilt.stripecloudflare.workers.dev, live smoke + audit OK
 - [ ] 7.5 Domain: replyingo.com returns NXDOMAIN (2026-11-11), not delegated to the Stripe Cloudflare account yet; attach apex + www and verify 301s once it is
 - [ ] STOP 2: company details + Airwallex links (04-final-launch-prompt.md)

@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "replybuilt",
+  "name": "replyingo",
   "main": "worker/index.ts",
   "compatibility_date": "2026-10-01",
   "assets": {
@@ -10,6 +10,7 @@
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
   },
+  // D1 keeps its original name "replybuilt" so existing data stays attached.
   // No database_id: wrangler creates the D1 database on the first deploy and finds it by name afterwards.
   "d1_databases": [{ "binding": "DB", "database_name": "replybuilt" }],
   "triggers": { "crons": ["17 3 * * *"] },
