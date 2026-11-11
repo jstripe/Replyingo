@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 
-const KEY = "replybuilt_cookie_notice";
+const KEY = "replyingo_cookie_notice";
 // Runs before first paint so returning visitors never see the notice flash.
 const HIDE = `try{if(localStorage.getItem("${KEY}")){var e=document.getElementById("cookie-notice");if(e)e.style.display="none"}}catch(_){}`;
 

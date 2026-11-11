@@ -2,7 +2,7 @@ import { LegalLayout, LLink, LP, LUL, Mail, SimpleTable, SubProcessorTable } fro
 import { buildMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
 
-export const metadata = buildMetadata("Privacy Policy", "How ReplyBuilt collects and uses personal data under the GDPR: what we collect, why, who we share it with, how long we keep it and your rights.", "/privacy/");
+export const metadata = buildMetadata("Privacy Policy", "How Replyingo collects and uses personal data under the GDPR: what we collect, why, who we share it with, how long we keep it and your rights.", "/privacy/");
 
 export default function PrivacyPage() {
   const E = siteConfig.legalEntity;

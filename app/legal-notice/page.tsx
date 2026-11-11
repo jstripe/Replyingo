@@ -2,7 +2,7 @@ import { LegalLayout, LLink, LP, LUL, Mail } from "@/components/pages/LegalLayou
 import { buildMetadata } from "@/lib/metadata";
 import { legalNotice, siteConfig } from "@/lib/site-config";
 
-export const metadata = buildMetadata("Legal Notice", "Who publishes ReplyBuilt: company name, registration number, address, contact details and hosting provider.", "/legal-notice/");
+export const metadata = buildMetadata("Legal Notice", "Who publishes Replyingo: company name, registration number, address, contact details and hosting provider.", "/legal-notice/");
 
 export default function LegalNoticePage() {
   return (

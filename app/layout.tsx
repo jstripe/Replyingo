@@ -11,7 +11,7 @@ const display = Fraunces({ subsets: ["latin"], variable: "--font-display", displ
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
-  title: { default: "ReplyBuilt: professional replies to your customer reviews", template: "%s" },
+  title: { default: "Replyingo: professional replies to your customer reviews", template: "%s" },
   description: siteConfig.description,
   applicationName: siteConfig.name,
   keywords: ["reply to Google reviews", "review response service", "Google Business Profile optimization", "Tripadvisor review replies", "reputation management for small business"],
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
   },
   manifest: "/site.webmanifest",
-  openGraph: { siteName: siteConfig.name, type: "website", locale: "en_US", images: [{ url: "/og.png", width: 1200, height: 630, alt: "ReplyBuilt" }] },
+  openGraph: { siteName: siteConfig.name, type: "website", locale: "en_US", images: [{ url: "/og.png", width: 1200, height: 630, alt: "Replyingo" }] },
   twitter: { card: "summary_large_image", images: ["/og.png"] },
 };
 

@@ -8,7 +8,7 @@ import { breadcrumbLd } from "@/lib/seo";
 import { buildMetadata } from "@/lib/metadata";
 import { legalNotice, siteConfig } from "@/lib/site-config";
 
-export const metadata = buildMetadata("About ReplyBuilt", "ReplyBuilt is a new online service that writes professional replies to genuine customer reviews for small businesses.", "/about/");
+export const metadata = buildMetadata("About Replyingo", "Replyingo is a new online service that writes professional replies to genuine customer reviews for small businesses.", "/about/");
 
 const values = [
   { t: "Genuine reviews only", d: "We never write, buy or sell reviews. We only reply to real ones." },
@@ -20,13 +20,13 @@ const values = [
 export default function AboutPage() {
   return (
     <SiteShell>
-      <PageHero eyebrow="About" title="A calm, careful answer to every review" sub="ReplyBuilt is a new online service for small businesses, launched in November 2026." />
+      <PageHero eyebrow="About" title="A calm, careful answer to every review" sub="Replyingo is a new online service for small businesses, launched in November 2026." />
       <Section>
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <div className="space-y-5 text-lg leading-8 text-muted-foreground">
             <h2 className="font-display text-3xl font-semibold text-foreground">Why we started</h2>
             <p>Small businesses live on their reputation, and reviews are where customers read it. Many people who run a business know they should answer each one, but between the customers, the staff and the suppliers the replies wait, and sometimes never get written. A review left unanswered says that nobody is listening.</p>
-            <p>ReplyBuilt exists to take that job off your plate. We read your genuine reviews, write professional replies in your tone, and you approve each one. We can also tidy up your Google Business Profile so that new customers see an accurate, complete listing. Everything is done online, and we are a new company with a deliberately small, clear offer.</p>
+            <p>Replyingo exists to take that job off your plate. We read your genuine reviews, write professional replies in your tone, and you approve each one. We can also tidy up your Google Business Profile so that new customers see an accurate, complete listing. Everything is done online, and we are a new company with a deliberately small, clear offer.</p>
           </div>
           <div className="overflow-hidden rounded-3xl border shadow-lg"><div className="aspect-[4/3]"><Media slug="about-desk" alt="A person writing on a laptop at a desk" sizes="(min-width: 1024px) 560px, 100vw" className="h-full w-full object-cover" /></div></div>
         </div>

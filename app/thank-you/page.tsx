@@ -6,7 +6,7 @@ import { IntakeForm } from "@/components/pages/Forms";
 import { buildMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
 
-export const metadata = buildMetadata("Thank you: send us your details", "Send ReplyBuilt your business details after your payment so we can start.", "/thank-you/", true);
+export const metadata = buildMetadata("Thank you: send us your details", "Send Replyingo your business details after your payment so we can start.", "/thank-you/", true);
 
 export default function ThankYouPage() {
   return (

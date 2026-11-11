@@ -1,6 +1,6 @@
-# PROJECT BRIEF: ReplyBuilt
+# PROJECT BRIEF: Replyingo
 
-Brand (working name): ReplyBuilt
+Brand (working name): Replyingo
 Pitch: Professional replies to the genuine reviews small businesses get on Google, Tripadvisor and Facebook, plus Google Business Profile optimization. 100% online service.
 For: restaurants, salons, hotels, garages, shops.
 Category: done-for-you online service (no accounts, no credits, no app). This differs from the SaaS template in the playbook, so the starter kit's accounts/credits/Stripe claim code was replaced by order-intake, quote and contact endpoints plus a small admin. The owner's brief overrides the playbook page list.

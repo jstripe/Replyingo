@@ -19,7 +19,7 @@ import { faqLd, serviceLd } from "@/lib/seo";
 import { buildMetadata } from "@/lib/metadata";
 
 export const metadata = buildMetadata(
-  "ReplyBuilt: professional replies to your genuine customer reviews",
+  "Replyingo: professional replies to your genuine customer reviews",
   "We write professional replies to the genuine reviews your business gets on Google, Tripadvisor and Facebook, and optimize your Google Business Profile. One-time offers from EUR 29.",
   "/",
 );

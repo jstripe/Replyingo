@@ -13,6 +13,6 @@
   // No database_id: wrangler creates the D1 database on the first deploy and finds it by name afterwards.
   "d1_databases": [{ "binding": "DB", "database_name": "replybuilt" }],
   "triggers": { "crons": ["17 3 * * *"] },
-  "vars": { "SITE_URL": "https://replybuilt.com" },
+  "vars": { "SITE_URL": "https://replyingo.com" },
   "observability": { "enabled": true }
 }

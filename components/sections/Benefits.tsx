@@ -19,7 +19,7 @@ export function BuiltFor() {
 export function Benefits() {
   return (
     <Section>
-      <SectionHeading eyebrow="Why ReplyBuilt" title="A reply is the answer your customers read" sub="Most people check the reviews and how the business answers them before they choose. We make sure the answer is there, and that it is good." />
+      <SectionHeading eyebrow="Why Replyingo" title="A reply is the answer your customers read" sub="Most people check the reviews and how the business answers them before they choose. We make sure the answer is there, and that it is good." />
       <div className="grid gap-5 md:grid-cols-3">
         {benefits.map((b) => (
           <div key={b.title} className="surface surface-hover p-7">

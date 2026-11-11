@@ -8,7 +8,7 @@ import { faqs } from "@/lib/data";
 import { breadcrumbLd, faqLd } from "@/lib/seo";
 import { buildMetadata } from "@/lib/metadata";
 
-export const metadata = buildMetadata("Frequently asked questions", "What ReplyBuilt does, how fast we reply, what we need from you, refunds and data safety. We never write fake reviews.", "/faq/");
+export const metadata = buildMetadata("Frequently asked questions", "What Replyingo does, how fast we reply, what we need from you, refunds and data safety. We never write fake reviews.", "/faq/");
 
 export default function FaqPage() {
   return (

@@ -1,7 +1,7 @@
 import { LegalLayout, LLink, LP, LUL, Mail, SubProcessorTable } from "@/components/pages/LegalLayout";
 import { buildMetadata } from "@/lib/metadata";
 
-export const metadata = buildMetadata("Security", "How ReplyBuilt protects your data: hosting, encryption, access control, payments through Airwallex, retention and how to report a vulnerability.", "/security/");
+export const metadata = buildMetadata("Security", "How Replyingo protects your data: hosting, encryption, access control, payments through Airwallex, retention and how to report a vulnerability.", "/security/");
 
 export default function SecurityPage() {
   return (

@@ -7,12 +7,12 @@ import { breadcrumbLd } from "@/lib/seo";
 import { buildMetadata } from "@/lib/metadata";
 import { siteConfig } from "@/lib/site-config";
 
-export const metadata = buildMetadata("Careers", "There are no open roles at ReplyBuilt right now. You can still get in touch.", "/careers/");
+export const metadata = buildMetadata("Careers", "There are no open roles at Replyingo right now. You can still get in touch.", "/careers/");
 
 export default function CareersPage() {
   return (
     <SiteShell>
-      <PageHero eyebrow="Careers" title="There are no open roles right now" sub="ReplyBuilt is a new company and we are not hiring at the moment." />
+      <PageHero eyebrow="Careers" title="There are no open roles right now" sub="Replyingo is a new company and we are not hiring at the moment." />
       <Section>
         <div className="mx-auto max-w-2xl space-y-5 text-lg leading-8 text-muted-foreground">
           <p>If you write well and care about how small businesses talk to their customers, you are welcome to introduce yourself. We keep messages on file only as long as the Privacy Policy says, and we will write back if a role opens that fits.</p>

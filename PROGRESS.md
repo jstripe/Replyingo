@@ -1,4 +1,4 @@
-# PROGRESS: ReplyBuilt
+# PROGRESS: Replyingo
 
 Started 2026-11-09. Playbook: ~/Desktop/Stripe Websites. Skills ui-ux-pro-max / frontend-design / web-perf were not invoked as skills; same goals followed by hand (noted per playbook).
 
@@ -18,15 +18,15 @@ Started 2026-11-09. Playbook: ~/Desktop/Stripe Websites. Skills ui-ux-pro-max / 
 - [x] 2-4 Copy/claims, footer, Pexels images (AVIF/WebP), SEO (metadata, sitemap, robots, JSON-LD), Google file, legal pages, logo + icons + OG
 - [x] 5 Mobile 375px checked (no horizontal scroll), speed, functional check
 - [x] 6 Local audit
-- [x] STOP 1 answered 2026-11-11: ReplyBuilt, replybuilt.com, repo jstripe/replybuilt
-- [x] 7 Launch: renamed (0 old-name hits in repo, out/, history, OG image, live HTML), pushed jstripe/replybuilt (private, main), deployed https://replybuilt.stripecloudflare.workers.dev (D1 replybuilt created), live smoke + audit OK
-- [ ] 7.5 Domain: replybuilt.com returns NXDOMAIN (2026-11-11), not delegated to the Stripe Cloudflare account yet; attach apex + www and verify 301s once it is
+- [x] Renamed to Replyingo (replyingo.com) 2026-11-11; repo jstripe/replybuilt and the Worker + D1 (both still named replybuilt) are unchanged on purpose
+- [x] 7 Launch: pushed jstripe/replybuilt (private, main), deployed https://replybuilt.stripecloudflare.workers.dev, live smoke + audit OK
+- [ ] 7.5 Domain: replyingo.com returns NXDOMAIN (2026-11-11), not delegated to the Stripe Cloudflare account yet; attach apex + www and verify 301s once it is
 - [ ] STOP 2: company details + Airwallex links (04-final-launch-prompt.md)
 
 ## Pending (by hand / STOP 2)
-- Add replybuilt.com to the Stripe Cloudflare account, set nameservers at the registrar, then I attach replybuilt.com + www
+- Add replyingo.com to the Stripe Cloudflare account, set nameservers at the registrar, then I attach replyingo.com + www
 - wrangler secrets ADMIN_USERNAME, ADMIN_PASSWORD
-- Email Routing contact@replybuilt.com
+- Email Routing contact@replyingo.com
 - Company details ({{...}} in lib/site-config.ts) and 5 Airwallex links
 
 ## Tests

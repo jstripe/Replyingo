@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/metadata";
 import { eur, offers } from "@/lib/data";
 import { siteConfig } from "@/lib/site-config";
 
-export const metadata = buildMetadata("Terms of Service", "The agreement between you and ReplyBuilt: the service, one-time payments, delivery, genuine reviews only, refunds, liability and governing law.", "/terms/");
+export const metadata = buildMetadata("Terms of Service", "The agreement between you and Replyingo: the service, one-time payments, delivery, genuine reviews only, refunds, liability and governing law.", "/terms/");
 
 export default function TermsPage() {
   const E = siteConfig.legalEntity;

@@ -1,16 +1,16 @@
 /**
  * Single source of truth. Company fields hold {{...}} values until the final step (STOP 2); every page reads them from here.
- * Domain: replybuilt.com (bought by the owner).
+ * Domain: replyingo.com (bought by the owner).
  */
-const domain = "replybuilt.com";
+const domain = "replyingo.com";
 
 export const siteConfig = {
-  name: "ReplyBuilt",
+  name: "Replyingo",
   domain,
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://replybuilt.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://replyingo.com",
   tagline: "Every review answered. Every customer won back.",
   description:
-    "ReplyBuilt writes professional replies to the genuine reviews your business receives on Google, Tripadvisor and Facebook, and optimizes your Google Business Profile. 100% online service.",
+    "Replyingo writes professional replies to the genuine reviews your business receives on Google, Tripadvisor and Facebook, and optimizes your Google Business Profile. 100% online service.",
   launchMonth: "November 2026",
 
   // Company identity (final step fills these in)
@@ -33,10 +33,10 @@ export const siteConfig = {
   startWithinHours: 48,
 
   social: {
-    x: "https://x.com/replybuilt",
-    instagram: "https://instagram.com/replybuilt",
-    linkedin: "https://linkedin.com/company/replybuilt",
-    facebook: "https://facebook.com/replybuilt",
+    x: "https://x.com/replyingo",
+    instagram: "https://instagram.com/replyingo",
+    linkedin: "https://linkedin.com/company/replyingo",
+    facebook: "https://facebook.com/replyingo",
   } as Record<string, string>,
   /** Only networks that really exist are shown. Hidden until the owner confirms them. */
   socialLive: { x: false, instagram: false, linkedin: false, facebook: false } as Record<string, boolean>,
@@ -57,7 +57,7 @@ export const siteConfig = {
   ],
 };
 
-export const mandatoryText = "ReplyBuilt never writes, buys or sells reviews. We only reply to genuine reviews on behalf of our clients, with their approval.";
+export const mandatoryText = "Replyingo never writes, buys or sells reviews. We only reply to genuine reviews on behalf of our clients, with their approval.";
 
 export function legalNotice(): string {
   if (siteConfig.legalNoticeOverride) return siteConfig.legalNoticeOverride;
