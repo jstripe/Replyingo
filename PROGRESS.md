@@ -8,7 +8,7 @@ Started 2026-11-09. Playbook: ~/Desktop/Stripe Websites. Skills ui-ux-pro-max / 
 - English, EUR. Light theme only (brief asks for white).
 - Cookie notice kept (brief asks for banner). Site sets no cookies for visitors; notice is honest about that.
 - Ports: 8790 was taken by ~/linguadesk (not touched). Using 8795 (worker) and 3105 (next dev).
-- Renamed ReplyCraft to ReplyBuilt before first push; history squashed so no old name ever left the Mac.
+- Brand renamed before the first push; history squashed so no earlier name ever left the Mac.
 - Company fields are {{...}} values in lib/site-config.ts until STOP 2.
 - "Most popular" badge on Reply Pro per playbook standard.
 
