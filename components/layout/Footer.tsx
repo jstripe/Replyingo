@@ -3,7 +3,7 @@ import { ArrowUp, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 import { Logo } from "./Logo";
 import { Button } from "@/components/ui/button";
 import { footerColumns } from "@/lib/data";
-import { legalNotice, siteConfig } from "@/lib/site-config";
+import { siteConfig } from "@/lib/site-config";
 
 const socials = [
   { key: "x", href: siteConfig.social.x, label: "X", Icon: Twitter },
@@ -51,7 +51,6 @@ export function Footer() {
           </div>
           <div className="max-w-3xl space-y-1.5">
             <p>&copy; {new Date().getFullYear()} {siteConfig.legalEntity}. All rights reserved.</p>
-            <p>{legalNotice()}</p>
             <p>{siteConfig.name} is a product of {siteConfig.legalEntity}, {siteConfig.legalForm}. Registration no. {siteConfig.registrationNumber}. Registered office: {siteConfig.address}. Email: {siteConfig.contactEmail}. Phone: {siteConfig.phone}.</p>
             <p>Replyingo never writes, buys or sells reviews. Photos by Pexels contributors.</p>
           </div>

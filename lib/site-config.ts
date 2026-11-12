@@ -1,5 +1,5 @@
 /**
- * Single source of truth. Company fields hold {{...}} values until the final step (STOP 2); every page reads them from here.
+ * Single source of truth for company identity and contact details; every page reads them from here.
  * Domain: replyingo.com (bought by the owner).
  */
 const domain = "replyingo.com";
@@ -11,19 +11,18 @@ export const siteConfig = {
   tagline: "Every review answered. Every customer won back.",
   description:
     "Replyingo writes professional replies to the genuine reviews your business receives on Google, Tripadvisor and Facebook, and optimizes your Google Business Profile. 100% online service.",
-  launchMonth: "November 2026",
 
-  // Company identity (final step fills these in)
-  legalEntity: "{{LEGAL NAME}}",
-  legalForm: "{{LEGAL FORM}}",
-  registrationNumber: "{{REGISTRATION NUMBER}}",
-  address: "{{ADDRESS}}",
-  governingLaw: "{{GOVERNING LAW}}",
-  /** The exact legal notice the owner gives at STOP 2. Empty = built from the fields above. */
+  // Company identity
+  legalEntity: "DIGISMART MEGA LTD",
+  legalForm: "private limited company registered in England and Wales",
+  registrationNumber: "16925464",
+  address: "192 Downing Road, Dagenham, England, RM9 6LU",
+  governingLaw: "the laws of England and Wales",
+  /** Empty = built from the fields above. */
   legalNoticeOverride: "",
 
   contactEmail: `contact@${domain || "{{DOMAIN}}"}`,
-  phone: "{{PHONE}}",
+  phone: "+1 (587) 973-3813",
   hours: "Monday to Friday, 9:00 to 17:00 (time zone of our registered office)",
   hoursNote: "Messages sent outside these hours are answered on the next business day.",
 

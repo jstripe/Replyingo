@@ -20,7 +20,7 @@ const values = [
 export default function AboutPage() {
   return (
     <SiteShell>
-      <PageHero eyebrow="About" title="A calm, careful answer to every review" sub="Replyingo is a new online service for small businesses, launched in November 2026." />
+      <PageHero eyebrow="About" title="A calm, careful answer to every review" sub="Replyingo is a new online service for small businesses." />
       <Section>
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <div className="space-y-5 text-lg leading-8 text-muted-foreground">
